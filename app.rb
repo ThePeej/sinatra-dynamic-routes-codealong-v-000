@@ -3,7 +3,7 @@ require_relative 'config/environment'
 class App < Sinatra::Base
 
   get '/' do
-    "Dynamic Routes"
+    "<h1>Dynamic Routes</h1>"
   end
 
   # This is a sample static route.
